@@ -1,6 +1,6 @@
 import React from 'react'
-import { useUsersContext } from './Context'
-import { SET, DELETE } from './types'
+import { useUsersContext } from '../contexts/Context'
+import { SET, DELETE } from '../contexts/types'
 export default ({user: {id, name}}) => {
   const dispatch = useUsersContext()[1]
   return  <li>

@@ -2,9 +2,9 @@ import {
   useReducer,
 } from 'react'
 
-import userData from './userData'
+import userData from '../userData'
 
-import { SET, ADD, DELETE } from './types'
+import { SET, ADD, DELETE } from '../contexts/types'
 
 const initialState = JSON.parse(userData)
 

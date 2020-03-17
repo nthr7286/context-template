@@ -3,7 +3,7 @@ import React, {
   useContext,
 } from 'react'
 
-import useUsers from './useUsers'
+import useUsers from '../hooks/useUsers'
 
 const Context = createContext()
 
